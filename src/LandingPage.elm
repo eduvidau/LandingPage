@@ -142,28 +142,6 @@ view { language, p1 } =
         ]
     }
 
-
-
-{--
-<script src="javascripts/scale.fix.js"></script>
---<html>
-
-  <head>
-    --<meta charset="utf-8">
-    --<meta http-equiv="X-UA-Compatible" content="chrome=1">
-    --<link rel="stylesheet" href="./stylesheets/styles.css">
-    --<link rel="stylesheet" href="./stylesheets/pygment_trac.css">
-    --<meta name="viewport" content="width=device-width">
-   -- <!--[if lt IE 9]>
-    --<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-   -- <![endif]-->
-  </head>
-    ... ALL The elm
- <script src="javascripts/scale.fix.js"></script>
---</html>
---}
-
-
 translate : Language -> Duo -> String
 translate language duo =
     case language of
@@ -233,7 +211,7 @@ talentsText =
            to make meaningfull websites.
            """
     , spa = """
-                Certificado para ensenar prinsipiantes y aficionados esquiadores.
+                Certificado para ensenar esquiadores prinsipiantes y aficionados.
              """
     }
 
@@ -241,5 +219,5 @@ talentsText =
 bye : Duo
 bye =
     { eng = "Keep the wheels spinning"
-    , spa = "Mantén las ruedas girando y las puntas apuntando hacia abajo."
+    , spa = "Manten las ruedas girando y las puntas apuntando hacia abajo."
     }
